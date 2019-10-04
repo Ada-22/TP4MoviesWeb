@@ -106,6 +106,12 @@ body .main aside .menu .option {
   flex-wrap: wrap;
   border-bottom: 0.3px solid gray;
 }
+body .main aside .menu .option strong {
+  color: #081c24;
+}
+body .main aside .menu .option:hover {
+  transform: scale(1.1);
+}
 body .main aside .menu .option .img-icon {
   width: 24px;
   margin: 15% 30%;
@@ -113,13 +119,13 @@ body .main aside .menu .option .img-icon {
 }
 body .main aside .menu .option:hover {
   color: black;
-  background-color: #bacfcf;
+  background-color: #efebf1;
 }
 
 .total {
   width: calc(100% - 90px);
   float: right;
-  background-color: #bacfcf;
+  background-color: #efebf1;
   margin-top: 95px;
 }
 .total .total-div {
@@ -204,7 +210,7 @@ body .main aside .menu .option:hover {
 .wrapper {
   width: calc(100% - 90px);
   float: right;
-  background-color: #bacfcf;
+  background-color: #efebf1;
 }
 .wrapper .content-section-title {
   width: 100%;
@@ -498,7 +504,7 @@ body .main aside .menu .option:hover {
   }
   body .main aside .menu .option:hover {
     color: #681d1d;
-    background-color: #bacfcf;
+    background-color: #efebf1;
   }
   body .main aside .menu .option .img-icon {
     width: 30%;

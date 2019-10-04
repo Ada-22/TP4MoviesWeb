@@ -122,6 +122,13 @@ body {
 					align-items: center;
 					flex-wrap: wrap;
 					border-bottom: 0.3px solid $color_14;
+					
+				    strong{
+						color: $color_25;
+					}
+					&:hover{
+				        transform: scale(1.1);
+					}
 					.img-icon {
 						width: 24px;
 						margin: 15% 30%;

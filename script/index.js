@@ -9,12 +9,6 @@ const upcoming = `${url_base}upcoming?api_key=${api_key}&page=${currentPage}`
 const nowPlaying =`${url_base}now_playing?api_key=${api_key}&page=${currentPage}`
  
 
-const logo = document.getElementsByClassName("logo");
-logo.onclick = event => {
-    event.location.reload(true);
-    
-} 
-
 const keyPress = event => {
     if(event.code === "Enter"){
         search()
@@ -101,11 +95,6 @@ const search = () => {
         
         
     }
-
-   
- 
-
-
 
 const popularfive = () => {
          fetch(`${popular}`)

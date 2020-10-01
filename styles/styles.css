@@ -1,6 +1,6 @@
 @import "../styles/reset.css";
 body {
-  background-color: white;
+  background-color: rgb(239, 235, 241);
   font-family: "Roboto", "sans-serif !important";
   line-height: 1.6;
 }
@@ -12,7 +12,6 @@ body .loader {
   height: 100%;
   z-index: 9999;
   background: url("../images/bat_flying_by_paci.gif") 50% 50% no-repeat #ede5f8;
-  opacity: 0.8;
 }
 body .hide {
   display: none;
@@ -54,7 +53,6 @@ body header input {
   text-indent: 16px;
   outline: none;
   border: none;
-  text-shadow: 10px 8px #ccccff, -10px 12px #ffccff, -8px -12px #ccffcc, 12px -5px #ffcc99;
   color: #413d3d;
 }
 body header .fa-bars {
@@ -108,9 +106,6 @@ body .main aside .menu .option {
 }
 body .main aside .menu .option strong {
   color: #081c24;
-}
-body .main aside .menu .option:hover {
-  transform: scale(1.1);
 }
 body .main aside .menu .option .img-icon {
   width: 24px;
